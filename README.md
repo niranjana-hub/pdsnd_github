@@ -6,9 +6,17 @@
 Exploring and Understanding US Bikeshare Data
 
 ### Description
-The bikeshare.py script analyzes bikeshare data from three U.S. cities: Washington, Chicago, and New York City. Using the Pandas library and NumPy operations, users can interact with the script to select various filters such as city, month, and day. This allows for detailed statistical analyses, including trip duration, user statistics, and the most popular start and end locations.
+The bikeshare.py file contains a Python script designed to analyze bikeshare data from three major US cities: Washington, Chicago, and New York City. Utilizing the powerful Pandas library along with NumPy operations, the script allows users to interactively explore the data.
 
-Users also have the option to view raw data through the command-line interface. The program runs in a loop, enabling users to continue exploring the data until they choose to exit.
+Users can select various filters, including the city, month, and day, to conduct a comprehensive statistical analysis. The script provides insights into several key metrics, such as:
+
+Trip Duration: Average and total trip times.
+User Statistics: Breakdown of users by type (e.g., subscriber, customer) and gender.
+Time Analysis: Peak times for bike usage, including hour and day of the week.
+Popularity Metrics: Most frequently used start and end stations for trips.
+Additionally, if users are interested in examining the raw data, the script offers a command-line interface option to display the dataset in its entirety.
+
+The program operates in a cyclical manner, prompting users to explore different queries until they choose to exit. This interactive design ensures a user-friendly experience, making it easy to derive valuable insights from the bikeshare data.
 
 ### Files used
 The python script in the bikeshare.py file uses three CSV files called chicago.csv, new_york_city.csv and washington.csv. Moreover, the bikeshare_2.py file provides the framework in which this code was developed on.
