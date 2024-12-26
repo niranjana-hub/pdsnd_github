@@ -1,9 +1,16 @@
 
 ### Date created
+<<<<<<< HEAD
 24th of December 2024
 
 ### Project Title
 Exploring and Understanding US bikeshare Data
+=======
+26th of December 2024
+
+### Project Title
+Exploring and Understanding US Bikeshare Data - Code by Niranjana, framework for code by Udacity
+>>>>>>> documentation
 
 ### Description
 The bikeshare.py file contains a Python script designed to analyze bikeshare data from three major US cities: Washington, Chicago, and New York City. Utilizing the powerful Pandas library along with NumPy operations, the script allows users to interactively explore the data.
@@ -19,7 +26,14 @@ Additionally, if users are interested in examining the raw data, the script offe
 The program operates in a cyclical manner, prompting users to explore different queries until they choose to exit. This interactive design ensures a user-friendly experience, making it easy to derive valuable insights from the bikeshare data.
 
 ### Files used
+<<<<<<< HEAD
 The Python script in the bikeshare.py file utilizes three CSV files—chicago.csv, new_york_city.csv, and washington.csv—which contain bikeshare data for their respective cities. Each CSV file includes various details such as trip duration, start and end times, user types, and more. Additionally, the bikeshare_2.py file serves as the foundational framework for the development of this code, offering essential functions and structures that enhance the functionality and organization of the analysis. Together, these files enable users to conduct comprehensive data analyses and derive insights into bikeshare trends and patterns in these major urban areas.
 
 ### Credits
 Referred to stack overflow to understand more tips to writing good code. Also used code beautify to format and enhance the readability of the code.
+=======
+The Python script in the bikeshare.py file utilizes three CSV files—chicago.csv, new_york_city.csv, and washington.csv which contain bikeshare data for their respective cities. Each CSV file includes various details such as trip duration, start and end times, user types, and more. Additionally, the bikeshare_2.py file serves as the foundational framework for the development of this code, offering essential functions and structures that enhance the functionality and organization of the analysis. Together, these files enable users to conduct comprehensive data analyses and derive insights into bikeshare trends and patterns in these major urban areas.
+
+### Credits
+Referred to Stack overflow for tips and tricks to writing good code and also used Code Beautify website to format python data and ensure proper readability
+>>>>>>> documentation
