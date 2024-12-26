@@ -12,14 +12,14 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello there! Let\'s explore some US bikeshare data!')
 
     while True:
         city = input("Please enter the city (chicago, new york city, washington): ").lower()
         if city in CITY_DATA:
             break
         else:
-            print("Oh no! Invalid input. Try again please!")
+            print("Oh Dear! Invalid input. Try again please!")
 
     while True:
         month = input("Please enter the month (all, january, february, march, april, may, june): ").lower()
@@ -33,7 +33,7 @@ def get_filters():
         if day in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
             break
         else:
-            print('Oh no! Invalid input. Try again please!')
+            print('Oh Dear! Invalid input. Try again please!')
 
     print('-' * 40)
     return city, month, day
@@ -134,7 +134,7 @@ def user_stats(df):
         print(f"Most recent year of birth: {recent_year}")
         print(f"Most common year of birth: {common_year}")
     else:
-        print("Sorry! Looks like birth year data is not available for this city.")
+        print("Sorry! It Looks like birth year data is not available for this city.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
